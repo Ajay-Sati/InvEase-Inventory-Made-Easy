@@ -1,5 +1,3 @@
-# InvEase-Inventory-Made-Easy
-
 # Streamlit–MySQL Inventory Management System
 
 ## Project Description
