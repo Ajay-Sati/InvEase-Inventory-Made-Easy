@@ -1,43 +1,28 @@
 # InvEase-Inventory-Made-Easy
 
+# Streamlit–MySQL Inventory Management System
 
-# Streamlit Inventory Manager
+## Project Description
+A full-stack web application that provides a user interface for managing inventory and operational data stored in a MySQL database. The system enables users to perform database operations such as product creation, stock updates, reorder management, and history tracking directly from the UI, without writing SQL queries. The application is designed to simplify inventory operations, enforce structured workflows, and centralize data handling through a controlled interface.
 
-This project is a full-stack **Streamlit + MySQL Inventory Management System** that allows users to manage an entire database using a clean and simple web interface—without writing a single SQL query.
+## Features
+- Add new products with automatic updates across related tables.
+- View product inventory history (shipments, stock entries, restocks, sales).
+- Display inventory metrics such as total products, total suppliers, category distribution, and recent sales/restock values.
+- Identify items below reorder levels.
+- Place and receive reorders through a guided interface.
+- Access supplier information and product details in organized tables.
 
-## 🔍 What the Project Does
-- Provides a user-friendly UI to interact with a MySQL database.
-- Allows adding new products directly from the interface.
-- Shows complete product history (shipments, stock updates, sales/restocks).
-- Displays inventory metrics such as:
-  - Total suppliers
-  - Total products
-  - Total categories
-  - Sales value (last 3 months)
-  - Restock value (last 3 months)
-- Enables placing reorders and marking them as received.
-- Eliminates the need for users to manually update or query the database.
+## Technology Stack
+- **Frontend:** Streamlit
+- **Backend:** Python
+- **Database:** MySQL
+- **Database Components:** SQL tables, stored procedures, views
+- **Additional Libraries:** Pandas, mysql-connector
 
-## 🧩 The Problem It Solves
-Managing inventory through raw SQL queries can be:
-- Difficult for non-technical users  
-- Time-consuming  
-- Error-prone  
-- Hard to visualize  
+## Project Purpose
+To provide a practical, UI-based inventory management solution that removes the need for direct SQL interaction, reduces dependency on technical users, and ensures consistent, structured database operations.
 
-This project solves these issues by giving users:
-- A **simple UI** instead of complex SQL commands  
-- Automated workflows for stock updates  
-- Centralized dashboards for better decision-making  
-- End-to-end inventory control in one place  
+## Repository Structure
 
-## 🛠 Tech Stack
-- **Streamlit** (Frontend UI)
-- **Python**
-- **MySQL** (Database)
-- **SQL Procedures & Views**
-
-## 📌 Why This Project Is Useful
-It bridges the gap between **database complexity** and **real-world usability**.  
-Anyone can manage inventory—even without knowing SQL.
 
