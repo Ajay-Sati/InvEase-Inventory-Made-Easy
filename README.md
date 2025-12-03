@@ -23,6 +23,5 @@ A full-stack web application that provides a user interface for managing invento
 ## Project Purpose
 To provide a practical, UI-based inventory management solution that removes the need for direct SQL interaction, reduces dependency on technical users, and ensures consistent, structured database operations.
 
-## Repository Structure
 
 
